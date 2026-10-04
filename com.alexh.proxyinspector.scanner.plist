@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.alexh.proxyinspector.scanner</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/bin/python3</string>
+        <string>/Users/alexhernandezm/Downloads/proxy-inspector/scanner.py</string>
+        <string>--scan</string>
+        <string>--quiet</string>
+    </array>
+
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/alexhernandezm/Downloads/proxy-inspector/logs/scanner.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/alexhernandezm/Downloads/proxy-inspector/logs/scanner.err.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/alexhernandezm/Downloads/proxy-inspector</string>
+</dict>
+</plist>
